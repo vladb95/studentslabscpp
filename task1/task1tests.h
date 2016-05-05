@@ -7,4 +7,8 @@ public:
 	void testArea(void){
 		TS_ASSERT_EQUALS(Calculate::CalcArea(8, 7, 6), 20.333162568);
 	}
+
+	void testSemiperimetr(void){
+		
+	}
 }
