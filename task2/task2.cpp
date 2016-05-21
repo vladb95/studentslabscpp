@@ -42,7 +42,12 @@ int main(){
 		}
 	}while(true);
 	int xn = pop(next);
+	stek *newNext = 0;
 	for(int j=0;j<(i-2);j++){
-		cout << pop(next) - xn << endl;
+		push(newNext, pop(next) - xn);
+	}
+
+	for(int j=0;j<(i-2);j++){
+		cout << pop(newNext) << endl;
 	}
 }
